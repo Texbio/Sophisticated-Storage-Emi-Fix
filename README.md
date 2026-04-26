@@ -18,8 +18,8 @@ A client-side Forge mod for Minecraft 1.20.1 that cleans up Sophisticated Storag
 
 ## Features
 
-### Favorited Recipes First
-- Favorited recipes (Ctrl+click in EMI) are sorted to the top of the recipe list whenever you look up an item. Favorite the tier upgrade recipe you use most and it'll always appear first.
+### Default Recipes First
+- Default Recipes are sorted to the top of the recipe list whenever you look up an item.
 
 ## Compatibility
 
