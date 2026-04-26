@@ -4,20 +4,22 @@
 
 A client-side Forge mod for Minecraft 1.20.1 that cleans up Sophisticated Storage and Sophisticated Backpacks recipe display in EMI/JEMI.
 
+## Fixes
+
+### Remove Generic Placeholder Recipes
+- Sophisticated Storage registers generic recipes that accept any variant as input (e.g., "any chest + copper = copper chest"). These are redundant because per-variant synthetic recipes already exist. This mod removes the originals so you only see the correct variant-specific recipes — an oak chest upgrade shows oak results, not birch or spruce.
+
+- Covers all serializer types: tier upgrades, tier upgrade shapeless, double chest tier upgrades, storage dye, shulker box conversions, flat top barrel toggle, and barrel material recipes.
+
+### Hide Dye Recipes From "Uses" View
+- When looking up a base storage item (e.g., iron chest), dye recipes no longer flood the uses list. You'll only see tier upgrades and controller/IO recipes.
+
+- Dye recipes **still show up** when looking up a specifically colored item as an output — so if you want to know how to craft a colored copper barrel, that recipe is still there.
+
 ## Features
 
-### 1. Remove Generic Placeholder Recipes
-Sophisticated Storage registers generic recipes that accept any variant as input (e.g., "any chest + copper = copper chest"). These are redundant because per-variant synthetic recipes already exist. This mod removes the originals so you only see the correct variant-specific recipes — an oak chest upgrade shows oak results, not birch or spruce.
-
-Covers all serializer types: tier upgrades, tier upgrade shapeless, double chest tier upgrades, storage dye, shulker box conversions, flat top barrel toggle, and barrel material recipes.
-
-### 2. Hide Dye Recipes From "Uses" View
-When looking up a base storage item (e.g., iron chest), dye recipes no longer flood the uses list. You'll only see tier upgrades and controller/IO recipes.
-
-Dye recipes **still show up** when looking up a specifically colored item as an output — so if you want to know how to craft a colored copper barrel, that recipe is still there.
-
-### 3. Favorited Recipes First
-Favorited recipes (Ctrl+click in EMI) are sorted to the top of the recipe list whenever you look up an item. Favorite the tier upgrade recipe you use most and it'll always appear first.
+### Favorited Recipes First
+- Favorited recipes (Ctrl+click in EMI) are sorted to the top of the recipe list whenever you look up an item. Favorite the tier upgrade recipe you use most and it'll always appear first.
 
 ## Compatibility
 
