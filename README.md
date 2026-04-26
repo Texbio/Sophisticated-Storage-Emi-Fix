@@ -28,11 +28,11 @@ The mod has no hard dependency on Sophisticated Storage or Backpacks. Recipes ar
 
 ## Images
 
-<img width="420" alt="image" src="https://github.com/user-attachments/assets/9bfc87f2-d9a0-435d-89bf-5c979a208dc3" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/9bfc87f2-d9a0-435d-89bf-5c979a208dc3" />
 
-<img width="420" alt="image" src="https://github.com/user-attachments/assets/a73f65fe-5159-48d6-81a1-9cc4c6f518d2" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/a73f65fe-5159-48d6-81a1-9cc4c6f518d2" />
 
-<img width="420" alt="image" src="https://github.com/user-attachments/assets/f32411ce-d121-49e7-ab51-65f78fac44a1" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/f32411ce-d121-49e7-ab51-65f78fac44a1" />
 
-<img width="420" alt="image" src="https://github.com/user-attachments/assets/9d86780b-01eb-43ef-8f27-b3394c3e4ee6" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/9d86780b-01eb-43ef-8f27-b3394c3e4ee6" />
 
