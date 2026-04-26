@@ -1,0 +1,57 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'net.neoforged.gradle' version '[6.0.18,6.2)'
+    id 'org.parchmentmc.librarian.forgegradle' version '1.2.0'
+}
+
+version = mod_version
+group = mod_group_id
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: mappings_channel, version: mappings_version
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            mods {
+                sophstorageemifix {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+repositories {
+    maven {
+        url "https://www.cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+}
+
+dependencies {
+    minecraft "net.neoforged:forge:${minecraft_version}-${forge_version}"
+
+    // EMI - Project ID 580555, File ID 6420945
+    compileOnly fg.deobf("curse.maven:emi-580555:6420945")
+}
+
+jar {
+    manifest {
+        attributes([
+            "Specification-Title"   : "sophstorageemifix",
+            "Specification-Vendor"  : "Texbio",
+            "Specification-Version" : "1",
+            "Implementation-Title"  : project.name,
+            "Implementation-Version": project.jar.archiveVersion,
+        ])
+    }
+    finalizedBy 'reobfJar'
+}

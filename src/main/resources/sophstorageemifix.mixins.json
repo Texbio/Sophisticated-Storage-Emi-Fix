@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sophfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "EmiApiMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
