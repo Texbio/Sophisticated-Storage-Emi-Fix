@@ -8,10 +8,11 @@ modId = "sophstorageemifix"
 version = "${file.jarVersion}"
 displayName = "Sophisticated Storage EMI Fix"
 description = '''
-Cleans up Sophisticated Storage and Backpacks recipe display in EMI.
-Removes generic placeholder recipes and dye recipe clutter.
+Cleans up Sophisticated Storage recipe display in EMI. Removes generic placeholder
+recipes and replaces multi-wood-variant dye recipes with single-variant ones that
+render at the top-left of the crafting grid.
 '''
-authors = "Texbio"
+authors = "sophfix"
 
 [[dependencies.sophstorageemifix]]
 modId = "forge"

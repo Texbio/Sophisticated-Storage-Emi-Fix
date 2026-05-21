@@ -47,7 +47,7 @@ jar {
     manifest {
         attributes([
             "Specification-Title"   : "sophstorageemifix",
-            "Specification-Vendor"  : "Texbio",
+            "Specification-Vendor"  : "sophfix",
             "Specification-Version" : "1",
             "Implementation-Title"  : project.name,
             "Implementation-Version": project.jar.archiveVersion,
